@@ -1,0 +1,17 @@
+[package]
+name = "ZapPaw"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+actix-web = "4"                     
+sqlx = { version = "0.6", features = ["runtime-tokio-rustls", "postgres"] }  
+redis = "0.21"                      
+tokio = { version = "1", features = ["full"] }  
+tracing = "0.1"                     
+tracing-subscriber = "0.3"          
+serde = { version = "1", features = ["derive"] }  
+argon2 = "0.4"                      
+jsonwebtoken = "8"                  
+validator = "0.16"                  
