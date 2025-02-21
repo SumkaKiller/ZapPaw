@@ -1,0 +1,15 @@
+
+/target/
+
+.idea/
+.vscode/
+
+.env
+.env.*
+
+
+*.log
+
+*.sqlite
+*.db
+*.sqlite3
